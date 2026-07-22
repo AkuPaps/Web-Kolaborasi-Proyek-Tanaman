@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Observasi Penanaman Tanaman</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="background"></div>
+
+<header>
+
+    <h2>🌱 Observasi Penanaman Tanaman</h2>
+
+    <div class="progress">
+        <div id="progressBar"></div>
+    </div>
+
+</header>
+
+<main>
+
+    <!-- HALAMAN 1 -->
+
+    <section class="slide active">
+
+        <div class="card hero">
+
+            <h1>OBSERVASI PENANAMAN TANAMAN</h1>
+
+            <h3>Proyek Sekolah</h3>
+
+            <p>
+                Dokumentasi kegiatan penanaman tanaman
+                dari awal hingga akhir.
+            </p>
+
+            <button onclick="nextSlide()">
+                Mulai →
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- HALAMAN 2 -->
+
+    <section class="slide">
+
+        <div class="card">
+
+            <h1>Kata Pengantar</h1>
+
+            <p>
+
+Puji syukur kami panjatkan kepada Tuhan Yang Maha Esa.
+
+Website ini dibuat sebagai media dokumentasi kegiatan observasi penanaman tanaman.
+
+Kami berharap hasil observasi ini dapat memberikan manfaat serta menambah wawasan mengenai pentingnya menjaga lingkungan.
+
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- HALAMAN 3 -->
+
+    <section class="slide">
+
+        <div class="card">
+
+            <h1>Data Kelompok</h1>
+
+            <table>
+
+                <tr>
+                    <td>Kelompok</td>
+                    <td>: Green Team</td>
+                </tr>
+
+                <tr>
+                    <td>Kelas</td>
+                    <td>: X TEI</td>
+                </tr>
+
+                <tr>
+                    <td>Guru</td>
+                    <td>: ................</td>
+                </tr>
+
+            </table>
+
+            <br>
+
+            <table>
+
+                <tr>
+
+                    <th>No</th>
+
+                    <th>Nama</th>
+
+                    <th>Absen</th>
+
+                </tr>
+
+                <tr>
+
+                    <td>1</td>
+
+                    <td>Nama Anggota</td>
+
+                    <td>01</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>2</td>
+
+                    <td>Nama Anggota</td>
+
+                    <td>02</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>3</td>
+
+                    <td>Nama Anggota</td>
+
+                    <td>03</td>
+
+                </tr>
+
+            </table>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- DOKUMENTASI 1 -->
+
+    <section class="slide">
+
+        <div class="card">
+
+            <h1>Persiapan Lahan</h1>
+
+            <img src="assets/foto1.jpg" class="photo">
+
+            <p>
+
+Pada tahap awal kami membersihkan lahan
+dan menyiapkan media tanam sebelum bibit
+ditanam.
+
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- DOKUMENTASI 2 -->
+
+    <section class="slide">
+
+        <div class="card">
+
+            <h1>Penanaman Bibit</h1>
+
+            <img src="assets/foto2.jpg" class="photo">
+
+            <p>
+
+Bibit ditanam dengan jarak tanam yang sesuai
+agar memperoleh ruang tumbuh yang baik.
+
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- DOKUMENTASI 3 -->
+
+    <section class="slide">
+
+        <div class="card">
+
+            <h1>Penyiraman</h1>
+
+            <img src="assets/foto3.jpg" class="photo">
+
+            <p>
+
+Tanaman disiram setiap pagi dan sore
+agar pertumbuhannya optimal.
+
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- DOKUMENTASI 4 -->
+
+    <section class="slide">
+
+        <div class="card">
+
+            <h1>Hasil Pertumbuhan</h1>
+
+            <img src="assets/foto4.jpg" class="photo">
+
+            <p>
+
+Beberapa minggu kemudian tanaman
+tumbuh dengan baik dan mulai
+menghasilkan daun baru.
+
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- HALAMAN TERAKHIR -->
+
+    <section class="slide">
+
+        <div class="card hero">
+
+            <h1>Kesimpulan</h1>
+
+            <p>
+
+Kegiatan ini mengajarkan kerja sama,
+tanggung jawab, serta kepedulian terhadap
+lingkungan.
+
+            </p>
+
+            <h2>🌱 Terima Kasih 🌱</h2>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+
+<footer>
+
+<button onclick="prevSlide()">
+
+← Sebelumnya
+
+</button>
+
+<span id="pageNumber">
+
+1 / 8
+
+</span>
+
+<button onclick="nextSlide()">
+
+Selanjutnya →
+
+</button>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
